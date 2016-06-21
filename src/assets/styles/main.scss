@@ -1,0 +1,44 @@
+/*
+    The following stylesheet architecture is based on four
+    categories of stylesheets, Base, Components, Patterns
+    and Views, each described below.
+
+    source: https://robots.thoughtbot.com/architecting-front-end-styles
+ */
+
+/*
+    Base
+    For anything defined by HTML including <body>, <p> and <a>.
+    Also defined in this directory are variables, non-rendering
+    sass like mixins and functions and resets.
+ */
+@import 'base/base';
+
+
+/*
+    Components
+    Stylesheets for modular UI items like .button, .alert or
+    .badge. Each stylesheet should represent an independent
+    object.
+ */
+@import 'components/components';
+
+
+
+/*
+    Patterns
+    Stylesheets for larger objects with children that they
+    affect. An example would be .hero-header with
+    .hero-header__title and .hero-header__description.
+ */
+@import 'patterns/patterns';
+
+
+/*
+    Views
+    This directory is for styles specific to a single view
+    that affect multiple patterns within them. For instance,
+    if a pattern has slightly different styling when it appears
+    on the homepage, those differences would be described here.
+ */
+@import 'views/views';

@@ -1,0 +1,38 @@
+//
+// Color Variables
+//
+
+$primary: #1E81BC;
+$secondary: #ef3e42;
+$tertiary: #00a0ae;
+$quaternary: #F2EF57;
+
+
+
+//
+// Sizing Variables
+//
+
+$headerHeight: 200px;         // height of the main header
+$wrapperWidth: 1100px;        // width of the main wrapper
+$tightWrapperWidth: 600px;    // width of a tighter wrapper for forms, etc.
+
+
+
+//
+// Typography Variables
+//
+
+$min-font-size: 14px;
+$max-font-size: 21px;
+$size-difference: $min-font-size - $max-font-size;
+$lower-font-range: 420px;
+$upper-font-range: 1280px;
+
+$h1: 3.157em;
+$h2: 2.369em;
+$h3: 1.777em;
+$h4: 1.333em;
+$h5: 1em;
+$h6: 0.5em;
+$p: 1.333em;

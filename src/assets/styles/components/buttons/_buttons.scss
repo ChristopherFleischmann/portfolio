@@ -1,0 +1,32 @@
+//Standard Button
+//
+//:hover             - Describe hover state
+//:focus             - Describe focus state
+//:active            - Describe active state
+//.disabled          - Describe disabled state
+
+.button{
+
+  &:hover{
+
+  }
+
+  &:focus{
+
+  }
+
+  &:active{
+
+  }
+
+  .disabled{
+
+  }
+}
+
+
+//Ghost Button - extends .button
+
+.button-ghost{
+
+}

@@ -1,0 +1,11 @@
+/*
+    Components
+    Stylesheets for modular UI items like .button, .alert or
+    .badge. Each stylesheet should represent an independent
+    object.
+
+    Each component should be separated into two parts: the
+    component's structure and it's various skins.
+ */
+@import "buttons/buttons";
+@import "_zindex";
