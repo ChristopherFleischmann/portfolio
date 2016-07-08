@@ -1,0 +1,33 @@
+.c-project-item{
+  flex-basis: 30%;
+  //padding: 3rem 0;
+  border: 2px solid white;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  background-image: url('../images/space.jpg');
+
+
+  &__link {
+    padding : 3rem 0;
+    display: flex;
+    position: relative;
+    //background-color: rgba($primary, 0.5);
+    text-decoration: none;
+  }
+
+  &__title {
+    margin: auto;
+    color: white;
+    text-align: center;
+  }
+
+  &:hover{
+      transform: scale(1.01);
+      transition-duration: .2s;
+      border-color: $tertiary;
+      box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.85);
+  }
+
+
+}

@@ -1,0 +1,26 @@
+
+.c-masthead {
+    background-color: $primary;
+    height: 100vh;
+    min-height: 550px;
+    display: flex;
+}
+
+.c-masthead__content{
+    margin:auto;
+    text-align: center;
+}
+
+.c-masthead__title {
+    font-family: $heading-font;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.c-masthead__subtitle {
+    font-family: $body-font;
+    color: white;
+    margin: 0;
+    text-align: center;
+}

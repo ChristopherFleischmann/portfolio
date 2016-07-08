@@ -112,7 +112,7 @@ gulp.task('styles', () => {
         'opera 12'
       ]
     }))
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(cleanCSS({
       advanced: true,
       mediaMerging: true,
@@ -120,7 +120,7 @@ gulp.task('styles', () => {
     }))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./dist/assets/styles'))
-    .pipe(reload({stream: true}));
+    .pipe(browserSync.stream());
 })
 
 gulp.task('parker', function() {
@@ -134,9 +134,9 @@ gulp.task('parker', function() {
 gulp.task('fonts', () => {
   return gulp.src('./src/assets/fonts/*')
     // .pipe(flatten())
-    .pipe(fontgen({
-      dest: './dist/assets/fonts'
-    }))
+    // .pipe(fontgen({
+    //   dest: './dist/assets/fonts'
+    // }))
     .pipe(gulp.dest('./dist/assets/fonts'))
     .pipe(browserSync.stream());
 });

@@ -1,0 +1,37 @@
+.c-nav-list {
+    // position: absolute;
+    // float: left;
+    // padding-top:21px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $primary;
+    z-index: 100;
+}
+
+
+ .c-nav-item {
+//   display: inline;
+//   list-style-type: none;
+//   color: white;
+//   padding: 20px;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+
+
+  &:hover{
+    background-color: $primary;
+    transition-duration: 0.6s;
+    background-color: darken($primary, 5%);
+    box-shadow: inset 0px 0px 10px 5px rgba(0, 84, 112, 0.6);
+  }
+}

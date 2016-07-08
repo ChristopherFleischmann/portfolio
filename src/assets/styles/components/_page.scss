@@ -1,0 +1,24 @@
+.c-page {
+  height: 110%;
+  min-height: 550px;
+  display: flex;
+  padding-bottom: 100px;
+
+  &:nth-of-type(2n) {
+    background-color: $tertiary;
+  }
+
+  &:nth-of-type(2n + 1) {
+    background-color: $primary;
+  }
+}
+
+.c-page__title{
+  color: white;
+  text-decoration: none;
+}
+
+.c-page__text {
+  color: white;
+  text-decoration: none;
+}
