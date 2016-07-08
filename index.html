@@ -9,22 +9,130 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
-        <link rel="stylesheet" href="/assets/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Katibeh|Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/styles/main.css">
     </head>
-    <body>
+    <body class="v-page">
         <!--[if lt IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <section id="content" role="main">
-            <article class="page-content">
-                <!-- Content goes here -->
-            </article>
-        </section>
+        <header class="p-header">
+          <div class="c-navbar">
+            <ul class="c-nav-list">
+              <li><a href="#content" class="c-nav-item">Home</a></li>
+              <li><a href="#about" class="c-nav-item">About</a></li>
+              <li><a href="#project" class="c-nav-item">Projects</a></li>
+              <li><a href="#contact" class="c-nav-item">Contact</a></li>
+            </ul>
+          </div>
+        </header>
+
+        <main id="content" role="main" class="p-main">
+            <section class="c-masthead">
+              <div class="c-masthead__content">
+                <h1 class="c-masthead__title">Christopher Fleischmann</h1>
+                <h4 class="c-masthead__subtitle">(Insert short description here!)</h4>
+              </div>
+            </section>
+
+            <section class="c-page" id="about">
+              <div class="wrapper">
+                  <h3 class="c-page__title">About</h3>
+                  <p class="c-page__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </section>
+
+            <section class="c-page" id="project">
+              <div class="wrapper">
+                  <h3 class="c-page__title">Projects</h3>
+                    <h4 class="c-page__title">Websites:</h4>
+                    <ul class="c-project-list">
+
+                      <li class="c-project-item" >
+                        <!-- <img src="./assets/images/space.jpg" alt="" class="c-project__bg-img"> -->
+                        <a href="http://www.team5416.com" target="_blank" class="c-project-item__link">
+                          <h4 class="c-project-item__title">TaRDIS Robotics</h4>
+                        </a>
+                      </li>
+
+                      <li class="c-project-item">
+                        <!-- <img src="./assets/images/space.jpg" alt="" class="c-project__bg-img"> -->
+                        <a href="/" class="c-project-item__link">
+                          <h4 class="c-project-item__title">Project 2</h4>
+                        </a>
+                      </li>
+
+                      <li class="c-project-item">
+                        <!-- <img src="./assets/images/space.jpg" alt="" class="c-project__bg-img"> -->
+                        <a href="/" class="c-project-item__link">
+                          <h4 class="c-project-item__title">Project 3</h4>
+                        </a>
+                      </li>
+                    </ul>
+
+                    <h4 class="c-page__title">Mobile Applications:</h4>
+                    <ul class="c-project-list">
+
+                      <li class="c-project-item" >
+                        <!-- <img src="./assets/images/space.jpg" alt="" class="c-project__bg-img"> -->
+                        <a href="/" class="c-project-item__link">
+                          <h4 class="c-project-item__title">Project 1</h4>
+                        </a>
+                      </li>
+
+                      <li class="c-project-item">
+                        <!-- <img src="./assets/images/space.jpg" alt="" class="c-project__bg-img"> -->
+                        <a href="/" class="c-project-item__link">
+                          <h4 class="c-project-item__title">Project 2</h4>
+                        </a>
+                      </li>
+
+                      <li class="c-project-item">
+                        <!-- <img src="./assets/images/space.jpg" alt="" class="c-project__bg-img"> -->
+                        <a href="/" class="c-project-item__link">
+                          <h4 class="c-project-item__title">Project 3</h4>
+                        </a>
+                      </li>
+                    </ul>
+
+                    <h4 class="c-page__title">Hardware:</h4>
+                    <ul class="c-project-list">
+
+                      <li class="c-project-item" >
+                        <!-- <img src="./assets/images/space.jpg" alt="" class="c-project__bg-img"> -->
+                        <a href="/" class="c-project-item__link">
+                          <h4 class="c-project-item__title">Project 1</h4>
+                        </a>
+                      </li>
+
+                      <li class="c-project-item">
+                        <!-- <img src="./assets/images/space.jpg" alt="" class="c-project__bg-img"> -->
+                        <a href="/" class="c-project-item__link">
+                          <h4 class="c-project-item__title">Project 2</h4>
+                        </a>
+                      </li>
+
+                      <li class="c-project-item">
+                        <!-- <img src="./assets/images/space.jpg" alt="" class="c-project__bg-img"> -->
+                        <a href="/" class="c-project-item__link">
+                          <h4 class="c-project-item__title">Project 3</h4>
+                        </a>
+                      </li>
+                    </ul>
+              </div>
+            </section>
+
+            <section class="c-page" id="contact">
+              <div class="wrapper">
+                  <h3 class="c-page__title">Contact</h3>
+                  <p class="c-page__text">Email me at <a href="" class="c-page__text">cfleischmann@nclud.com</a></p>
+            </section>
+
+        </main>
 
         <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="/assets/scripts/vendor/jquery-3.0.0.min.js"><\/script>')</script>
-        <script src="/assets/main.min.js"></script>
+        <script src="/assets/scripts/main.min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
